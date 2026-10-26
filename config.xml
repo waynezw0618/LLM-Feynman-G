@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  LGF (LLM-GraphFeynman) 配置文件
+  =================================
+  加载顺序: 默认值 → 本文件 → CLI 参数 (高优先级覆盖低优先级)
+
+  重点配置点 (LLM 后端):
+    llm_backend  - heuristic(离线) / flask(HTTP /completions) / openai(OpenAI 兼容)
+    llm_url      - flask 模式需带 /completions; openai 模式只填到 .../v1
+    llm_api_key  - 留空时按 LGF_LLM_API_KEY > OPENAI_API_KEY > DASHSCOPE_API_KEY 解析
+    llm_model    - 模型名; openai 模式留空回退 gpt-3.5-turbo
+    llm_debug    - true 时后端失败会打印到 stderr (默认静默退化为启发式)
+
+  使用方法 (CLI 示例里的 flag 均带 连字符-连字符, 这里只写示例名):
+    1) 显式指定本文件:
+       python main.py  framework=lgf  benchmark=esat  config=config.xml
+
+    2) 复制为多份 (例如 dev / prod) 分别维护:
+       copy config.xml config.dev.xml
+       python main.py  framework=lgf  config=config.dev.xml
+
+    3) CLI 永远覆盖文件:
+       python main.py  framework=lgf  config=config.xml
+                      llm_backend=openai  llm_model=gpt-4o-mini
+
+  字段含义参考 lgf/config.py 的 LGFConfig dataclass.
+-->
+<lgf>
+
+    <!-- ===== 种群与进化 ===== -->
+    <population>50</population>
+    <generations>40</generations>
+    <offspring_ratio>1.0</offspring_ratio>
+    <crossover_rate>0.5</crossover_rate>
+    <mutation_rate>0.7</mutation_rate>
+
+    <!-- ===== 复杂度控制 ===== -->
+    <max_edges>14</max_edges>
+    <max_params>6</max_params>
+    <max_depth>6</max_depth>
+
+    <!-- ===== 外层 LLM 循环 ===== -->
+    <llm_every>5</llm_every>
+    <stagnation_window>12</stagnation_window>
+    <extinction_keep>4</extinction_keep>
+    <use_llm>true</use_llm>
+    <use_attribution>true</use_attribution>
+    <use_priors>true</use_priors>
+
+    <!-- ===== 拟合 ===== -->
+    <gp_starts>2</gp_starts>
+    <gp_maxiter>30</gp_maxiter>
+    <final_starts>20</final_starts>
+    <final_maxiter>200</final_maxiter>
+    <sub_sample>200</sub_sample>
+    <param_init_range>1.5</param_init_range>
+    <init_value>0.5</init_value>
+    <fit_tol>1e-9</fit_tol>
+
+    <!-- ===== 验证 ===== -->
+    <equivalence_tol>1e-3</equivalence_tol>
+
+    <!-- ===== LLM 后端 (核心配置区) ===== -->
+    <llm_backend>heuristic</llm_backend>
+    <!--
+        flask  : POST 原样 URL (须自带 /completions)
+                 例: http://localhost:5050/completions
+        openai : 自动追加 /chat/completions, 只填版本段
+                 例: https://api.openai.com/v1
+                 例: https://dashscope.aliyuncs.com/compatible-mode/v1
+                 例: http://localhost:8000/v1 (本地 vLLM/Ollama)
+        heuristic: 忽略 url
+    -->
+    <llm_url></llm_url>
+
+    <!-- 留空 → openai 模式回退 gpt-3.5-turbo; flask 模式忽略 -->
+    <llm_model></llm_model>
+
+    <!--
+        留空 → 按 LGF_LLM_API_KEY > OPENAI_API_KEY > DASHSCOPE_API_KEY 解析
+        示例: <llm_api_key>sk-xxxxxxxxxxxxxxxx</llm_api_key>
+        注意: 生产环境建议把 key 留在环境变量里, 这里留空
+    -->
+    <llm_api_key></llm_api_key>
+
+    <llm_temperature>0.7</llm_temperature>
+    <llm_timeout>60.0</llm_timeout>
+    <llm_debug>false</llm_debug>
+
+    <!-- ===== 其它 ===== -->
+    <seed>0</seed>
+    <time_budget_s>600.0</time_budget_s>
+    <log_every>1</log_every>
+    <output_dir>outputs</output_dir>
+    <case_names></case_names>
+
+</lgf>

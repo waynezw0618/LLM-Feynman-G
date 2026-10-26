@@ -1,0 +1,19 @@
+======================================================================
+target=T5g
+[1] attribution.analyze ...
+    OK keys=['feature_roles', 'per_case_summary', 'per_node', 'rmse', 'suggested_targets', 'target_semantics', 'text_summary', 'ypd_bin_errors']
+[2] M_GUIDE (heuristic client) ...
+    OK n_mutations=2: [{'type': 'perturb_param', 'param_id': 'C1', 'magnitude': 0.2}, {'type': 'replace_subtree', 'path': [], 'new_dsl': 'exp(1/(C2*x1 + C3))'}]
+[3] apply_mutations top-1 ...
+    OK ng=clone-equal edges=9
+======================================================================
+target=T1
+[1] attribution.analyze ...
+d:\AI\LLM-Feynman-G\lgf\attribution.py:139: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr = spearmanr(zf, rf).correlation if hasattr(spearmanr(zf, rf), "correlation") else spearmanr(zf, rf)[0]
+    OK keys=['feature_roles', 'per_case_summary', 'per_node', 'rmse', 'suggested_targets', 'target_semantics', 'text_summary', 'ypd_bin_errors']
+[2] M_GUIDE (heuristic client) ...
+    OK n_mutations=2: [{'type': 'perturb_param', 'param_id': 'C1', 'magnitude': 0.2}, {'type': 'replace_subtree', 'path': [], 'new_dsl': 'exp(1/(C2*x1 + C3))'}]
+[3] apply_mutations top-1 ...
+    OK ng=clone-equal edges=12
+done

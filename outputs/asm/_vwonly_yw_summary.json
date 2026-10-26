@@ -1,0 +1,62 @@
+{
+  "pysr/v": {
+    "status": "ok",
+    "elapsed_s": 97.3,
+    "done": true
+  },
+  "pysr/g": {
+    "status": "ok",
+    "elapsed_s": 91.1,
+    "done": true
+  },
+  "pysr/e": {
+    "status": "ok",
+    "elapsed_s": 41.2,
+    "done": true
+  },
+  "pysr/m": {
+    "status": "ok",
+    "elapsed_s": 42.0,
+    "done": true
+  },
+  "lgf_go/v": {
+    "status": "ok",
+    "elapsed_s": 777.6,
+    "done": true
+  },
+  "lgf_go/g": {
+    "status": "ok",
+    "elapsed_s": 560.4,
+    "done": true
+  },
+  "lgf_go/e": {
+    "status": "ok",
+    "elapsed_s": 378.6,
+    "done": true
+  },
+  "lgf_go/m": {
+    "status": "ok",
+    "elapsed_s": 1800.5,
+    "done": true
+  },
+  "lgf_mg/v": {
+    "status": "ok",
+    "elapsed_s": 958.2,
+    "done": true
+  },
+  "lgf_mg/g": {
+    "status": "ok",
+    "elapsed_s": 1242.3,
+    "done": true
+  },
+  "lgf_mg/e": {
+    "status": "ok",
+    "elapsed_s": 1052.5,
+    "done": true
+  },
+  "lgf_mg/m": {
+    "status": "ok",
+    "elapsed_s": 2841.2,
+    "done": true
+  }
+}

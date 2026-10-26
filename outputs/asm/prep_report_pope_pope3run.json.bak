@@ -1,0 +1,119 @@
+{
+  "selected_basis": [
+    "T2v",
+    "T1",
+    "T4v",
+    "T3v",
+    "T5v"
+  ],
+  "greedy_trace": [
+    {
+      "step": 1,
+      "add": "T2v",
+      "rel_resid": 0.4783529450727086,
+      "med_cond": 1.0,
+      "min_vfrac": 1.0
+    },
+    {
+      "step": 2,
+      "add": "T10v",
+      "rel_resid": 0.3640769644856056,
+      "med_cond": 3.9645055282192114,
+      "min_vfrac": 0.9612403100775194
+    },
+    {
+      "step": 3,
+      "add": "T4v",
+      "rel_resid": 0.21639128529320736,
+      "med_cond": 5.618685575268184,
+      "min_vfrac": 0.9612403100775194
+    },
+    {
+      "step": 4,
+      "add": "T3v",
+      "rel_resid": 0.09192423497407828,
+      "med_cond": 17.284258495644288,
+      "min_vfrac": 0.9612403100775194
+    },
+    {
+      "step": 5,
+      "add": "T10e",
+      "rel_resid": 7.7805903788926e-08,
+      "med_cond": 13495.382339885422,
+      "min_vfrac": 0.9457364341085271
+    }
+  ],
+  "final_stats": {
+    "rel_resid": 7.720799997209381e-08,
+    "med_cond": 10.338058421077037,
+    "p90_cond": 81.62905551449437,
+    "max_cond": 10161747.31966819,
+    "min_vfrac": 0.9767441860465116
+  },
+  "valid_fit_rule": "cond<=10000 & max|a_m|<=300",
+  "subset_comparison": {
+    "selected": {
+      "basis": [
+        "T2v",
+        "T1",
+        "T4v",
+        "T3v",
+        "T5v"
+      ],
+      "rel_resid": 7.720799997209381e-08,
+      "p90_cond": 81.62905551449437,
+      "max_amax": 186.7176782684955,
+      "nw_fit_pct": 88.88888888888889
+    },
+    "T5v->T6v": {
+      "basis": [
+        "T2v",
+        "T1",
+        "T4v",
+        "T3v",
+        "T6v"
+      ],
+      "rel_resid": 7.720799996961923e-08,
+      "p90_cond": 2099.6207497002247,
+      "max_amax": 186.71767826849546,
+      "nw_fit_pct": 88.88888888888889
+    },
+    "T5v->T10v": {
+      "basis": [
+        "T2v",
+        "T1",
+        "T4v",
+        "T3v",
+        "T10v"
+      ],
+      "rel_resid": 7.810366035364403e-08,
+      "p90_cond": 2482.6786544523998,
+      "max_amax": 270.3732005307107,
+      "nw_fit_pct": 82.3529411764706
+    },
+    "T5v->T9v": {
+      "basis": [
+        "T2v",
+        "T1",
+        "T4v",
+        "T3v",
+        "T9v"
+      ],
+      "rel_resid": 0.0,
+      "p90_cond": NaN,
+      "max_amax": 0.0,
+      "nw_fit_pct": 0.0
+    }
+  },
+  "old_ext5_stats": {
+    "rel_resid": 7.720800008167193e-08,
+    "med_cond": 2123.8026063849807,
+    "min_vfrac": 0.9767441860465116
+  },
+  "pope_ref": "Pope, S.B. (1975) JFM 72:331-340; basis T1..T10; invariants {S^2},{W^2},{S^3},{SW^2},{S^2W^2}",
+  "w_variants": {
+    "v": "Wbar (vorticity)",
+    "e": "Omega_tilde = Wbar + 2*eps*Om (ext, 黄/马 2008 式(19))",
+    "g": "W* = Wbar + 1*eps*Om (Gatski & Speziale 1993 JFM 254:59)"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "best": {
+    "dsl": "C1 * (exp(C2 * (cos(x2))))",
+    "loss": 0.2794796188918629,
+    "theta": [
+      11.385184025334615,
+      -1.6272783323687332
+    ],
+    "metrics": {
+      "case0_nmse": 0.2794796188918629,
+      "case0_r2": 0.7205203811081371,
+      "case0_rmse": 3.8316392822164174
+    },
+    "complexity": {
+      "nodes": 5,
+      "edges": 4,
+      "params": 2,
+      "depth": 5
+    }
+  },
+  "top_final": [
+    {
+      "dsl": "C1 * (exp(C2 * (cos(x2))))",
+      "loss": 0.2794796188918629,
+      "theta": [
+        11.385184025334615,
+        -1.6272783323687332
+      ],
+      "metrics": {
+        "case0_nmse": 0.2794796188918629,
+        "case0_r2": 0.7205203811081371,
+        "case0_rmse": 3.8316392822164174
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (C3 * (log(x2)))))",
+      "loss": 0.28937606265590116,
+      "theta": [
+        4.665699670210775,
+        -1.762609266962533,
+        -1.2253214187493622
+      ],
+      "metrics": {
+        "case0_nmse": 0.28937606265590116,
+        "case0_r2": 0.7106239373440988,
+        "case0_rmse": 3.8988887871272055
+      },
+      "complexity": {
+        "nodes": 6,
+        "edges": 5,
+        "params": 3,
+        "depth": 6
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x2))))",
+      "loss": 0.2893760626559015,
+      "theta": [
+        4.665699751655807,
+        2.1597628397866857
+      ],
+      "metrics": {
+        "case0_nmse": 0.2893760626559015,
+        "case0_r2": 0.7106239373440986,
+        "case0_rmse": 3.8988887871272073
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x2))))",
+      "loss": 0.289376062655905,
+      "theta": [
+        4.6657002609955995,
+        2.159762711339374
+      ],
+      "metrics": {
+        "case0_nmse": 0.289376062655905,
+        "case0_r2": 0.710623937344095,
+        "case0_rmse": 3.898888787127231
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x2))))",
+      "loss": 0.289376062655905,
+      "theta": [
+        4.6657002609955995,
+        2.159762711339374
+      ],
+      "metrics": {
+        "case0_nmse": 0.289376062655905,
+        "case0_r2": 0.710623937344095,
+        "case0_rmse": 3.898888787127231
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x2))))",
+      "loss": 0.289376062655906,
+      "theta": [
+        4.665700294435888,
+        2.159762709257315
+      ],
+      "metrics": {
+        "case0_nmse": 0.289376062655906,
+        "case0_r2": 0.710623937344094,
+        "case0_rmse": 3.898888787127238
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x2))))",
+      "loss": 0.289376062655906,
+      "theta": [
+        4.665700294435888,
+        2.159762709257315
+      ],
+      "metrics": {
+        "case0_nmse": 0.289376062655906,
+        "case0_r2": 0.710623937344094,
+        "case0_rmse": 3.898888787127238
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x2))))",
+      "loss": 0.289376062655906,
+      "theta": [
+        4.665700294435888,
+        2.159762709257315
+      ],
+      "metrics": {
+        "case0_nmse": 0.289376062655906,
+        "case0_r2": 0.710623937344094,
+        "case0_rmse": 3.898888787127238
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    }
+  ],
+  "profile": {
+    "n_vars": 2,
+    "var_names": [
+      "x1",
+      "x2"
+    ],
+    "n_cases": 1,
+    "per_case": [
+      {
+        "name": "case0",
+        "N": 80,
+        "y_min": 0.4348618855744848,
+        "y_max": 31.186914717035407,
+        "y_mean": 9.4841251699001,
+        "y_std": 7.247855826897684,
+        "y_positive": true,
+        "monotone": {
+          "x1": 0.2580403187998125,
+          "x2": 0.8936474449132679
+        },
+        "var_ranges": {
+          "x1": [
+            0.5149318412109379,
+            1.9958149036838164
+          ],
+          "x2": [
+            0.5041077502552221,
+            1.9926447578529862
+          ]
+        }
+      }
+    ],
+    "global": {
+      "y_min": 0.4348618855744848,
+      "y_max": 31.186914717035407,
+      "y_positive": true,
+      "y_range": 30.752052831460922
+    }
+  },
+  "priors": null,
+  "elapsed_s": 0.7870888710021973,
+  "cfg": {
+    "population": 16,
+    "generations": 6,
+    "offspring_ratio": 1.0,
+    "crossover_rate": 0.5,
+    "mutation_rate": 0.7,
+    "max_edges": 14,
+    "max_params": 6,
+    "max_depth": 6,
+    "llm_every": 2,
+    "stagnation_window": 4,
+    "extinction_keep": 4,
+    "use_llm": false,
+    "use_attribution": false,
+    "use_priors": false,
+    "gp_starts": 1,
+    "gp_maxiter": 15,
+    "final_starts": 3,
+    "final_maxiter": 50,
+    "sub_sample": 80,
+    "param_init_range": 1.5,
+    "init_value": 0.5,
+    "fit_tol": 1e-09,
+    "equivalence_tol": 0.001,
+    "llm_backend": "heuristic",
+    "llm_url": null,
+    "llm_model": "local",
+    "llm_temperature": 0.7,
+    "llm_timeout": 60.0,
+    "seed": 0,
+    "time_budget_s": 60,
+    "log_every": 1,
+    "output_dir": "outputs",
+    "case_names": []
+  },
+  "name": "mul_sep__GP-only"
+}

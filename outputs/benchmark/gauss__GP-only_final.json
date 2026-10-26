@@ -1,0 +1,261 @@
+{
+  "best": {
+    "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+    "loss": 0.7608038489127689,
+    "theta": [
+      0.2593066982681884,
+      0.7736704504181433,
+      0.9254296520521624
+    ],
+    "metrics": {
+      "case0_nmse": 0.7608038489127689,
+      "case0_r2": 0.23919615108723113,
+      "case0_rmse": 0.1993785697211011
+    },
+    "complexity": {
+      "nodes": 7,
+      "edges": 6,
+      "params": 3,
+      "depth": 5
+    }
+  },
+  "top_final": [
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489127689,
+      "theta": [
+        0.2593066982681884,
+        0.7736704504181433,
+        0.9254296520521624
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489127689,
+        "case0_r2": 0.23919615108723113,
+        "case0_rmse": 0.1993785697211011
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489127699,
+      "theta": [
+        -0.25930670587470095,
+        -0.773670409109407,
+        -0.9254296875374781
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489127699,
+        "case0_r2": 0.23919615108723014,
+        "case0_rmse": 0.19937856972110124
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489127701,
+      "theta": [
+        0.2593066949623696,
+        -3.9152632662655567,
+        -0.9254295928276225
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489127701,
+        "case0_r2": 0.2391961510872299,
+        "case0_rmse": 0.1993785697211013
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489127739,
+      "theta": [
+        -0.25930668942804147,
+        -0.7736705703051243,
+        -0.9254296358266171
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489127739,
+        "case0_r2": 0.23919615108722614,
+        "case0_rmse": 0.19937856972110177
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489128199,
+      "theta": [
+        -0.25930665866869135,
+        -0.7736698543258802,
+        -0.9254298480915254
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489128199,
+        "case0_r2": 0.23919615108718006,
+        "case0_rmse": 0.19937856972110782
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489129233,
+      "theta": [
+        0.25930669572476317,
+        2.367920685243179,
+        -0.9254289739737037
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489129233,
+        "case0_r2": 0.2391961510870767,
+        "case0_rmse": 0.19937856972112136
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489129471,
+      "theta": [
+        -0.2593065662609772,
+        -2.3679225791445346,
+        0.9254297226736128
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489129471,
+        "case0_r2": 0.23919615108705294,
+        "case0_rmse": 0.19937856972112447
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (sin(C3 * (x1) + C2 * (1)))",
+      "loss": 0.7608038489136796,
+      "theta": [
+        -0.25930693784929126,
+        -0.7736695453646145,
+        -0.9254297823177817
+      ],
+      "metrics": {
+        "case0_nmse": 0.7608038489136796,
+        "case0_r2": 0.23919615108632042,
+        "case0_rmse": 0.19937856972122045
+      },
+      "complexity": {
+        "nodes": 7,
+        "edges": 6,
+        "params": 3,
+        "depth": 5
+      }
+    }
+  ],
+  "profile": {
+    "n_vars": 2,
+    "var_names": [
+      "x1",
+      "x2"
+    ],
+    "n_cases": 1,
+    "per_case": [
+      {
+        "name": "case0",
+        "N": 80,
+        "y_min": -0.03293271468377752,
+        "y_max": 1.4221751597737033,
+        "y_mean": 0.13803465079167526,
+        "y_std": 0.22858205124546457,
+        "y_positive": false,
+        "monotone": {
+          "x1": -0.7538443506797937,
+          "x2": -0.17801218940459448
+        },
+        "var_ranges": {
+          "x1": [
+            0.12886822634114667,
+            2.991908813788712
+          ],
+          "x2": [
+            0.10794165049342948,
+            2.98577986518244
+          ]
+        }
+      }
+    ],
+    "global": {
+      "y_min": -0.03293271468377752,
+      "y_max": 1.4221751597737033,
+      "y_positive": false,
+      "y_range": 1.4551078744574808
+    }
+  },
+  "priors": null,
+  "elapsed_s": 1.3001298904418945,
+  "cfg": {
+    "population": 16,
+    "generations": 6,
+    "offspring_ratio": 1.0,
+    "crossover_rate": 0.5,
+    "mutation_rate": 0.7,
+    "max_edges": 14,
+    "max_params": 6,
+    "max_depth": 6,
+    "llm_every": 2,
+    "stagnation_window": 4,
+    "extinction_keep": 4,
+    "use_llm": false,
+    "use_attribution": false,
+    "use_priors": false,
+    "gp_starts": 1,
+    "gp_maxiter": 15,
+    "final_starts": 3,
+    "final_maxiter": 50,
+    "sub_sample": 80,
+    "param_init_range": 1.5,
+    "init_value": 0.5,
+    "fit_tol": 1e-09,
+    "equivalence_tol": 0.001,
+    "llm_backend": "heuristic",
+    "llm_url": null,
+    "llm_model": "local",
+    "llm_temperature": 0.7,
+    "llm_timeout": 60.0,
+    "seed": 0,
+    "time_budget_s": 60,
+    "log_every": 1,
+    "output_dir": "outputs",
+    "case_names": []
+  },
+  "name": "gauss__GP-only"
+}

@@ -1,0 +1,226 @@
+..........................................................               [100%]
+============================== warnings summary ===============================
+tests/test_eq_compat.py::test_context_templates_instantiate
+  <lambdifygenerated-1>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_context_templates_instantiate
+  <lambdifygenerated-3>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_context_templates_energy_momentum
+  <lambdifygenerated-11>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_eq_params_to_C
+  <lambdifygenerated-13>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_eq_sqrt_ratio
+  <lambdifygenerated-16>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_eq_fractional_power_param
+  <lambdifygenerated-20>:2: RuntimeWarning: divide by zero encountered in log
+
+tests/test_eq_compat.py::test_eq_fractional_power_param
+  <lambdifygenerated-20>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_eq_compat.py::test_eq_np_pi_literal
+  <lambdifygenerated-23>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_eq_batch_and_reject_unknown
+  <lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_eq_inverse_power
+  <lambdifygenerated-32>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_eq_compat.py::test_numeric_equivalence_original_vs_lgf
+  <lambdifygenerated-34>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_lgf.py: 74 warnings
+  d:\AI\LLM-Feynman-G\lgf\paramfit.py:79: DeprecationWarning: scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.
+    res = minimize(_loss_grad, x0, args=(cg, cases),
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-48>:2: RuntimeWarning: divide by zero encountered in power
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-48>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_lgf.py::test_paramfit_template_esat
+tests/test_lgf.py::test_multicase_case_params
+tests/test_lgf.py::test_pipeline_full
+  d:\AI\LLM-Feynman-G\lgf\compiler.py:97: RuntimeWarning: overflow encountered in square
+    lc = float(np.mean(res**2)) / var_y
+
+tests/test_lgf.py::test_paramfit_template_esat
+tests/test_lgf.py::test_multicase_case_params
+tests/test_lgf.py::test_pipeline_full
+  d:\AI\LLM-Feynman-G\lgf\compiler.py:99: RuntimeWarning: overflow encountered in multiply
+    gsum = float(np.mean(2.0 * res * gp[j])) / var_y / n_cases
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-48>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-49>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-50>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-51>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-52>:2: RuntimeWarning: divide by zero encountered in power
+
+tests/test_lgf.py::test_paramfit_template_esat
+  <lambdifygenerated-52>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-59>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-62>:2: RuntimeWarning: divide by zero encountered in power
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-62>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-66>:2: RuntimeWarning: divide by zero encountered in log
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-66>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-88>:2: RuntimeWarning: divide by zero encountered in log
+
+tests/test_lgf.py::test_templates_all
+  <lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_lgf.py::test_attribution
+tests/test_lgf.py::test_pipeline_full
+  d:\AI\LLM-Feynman-G\lgf\attribution.py:139: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+    sr = spearmanr(zf, rf).correlation if hasattr(spearmanr(zf, rf), "correlation") else spearmanr(zf, rf)[0]
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-101>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-101>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-101>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-102>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-103>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-104>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-105>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_multicase_case_params
+  <lambdifygenerated-105>:2: RuntimeWarning: invalid value encountered in multiply
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-122>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-160>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-167>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-170>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-173>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-176>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-179>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-182>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-185>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-188>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-191>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-194>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-201>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-204>:2: RuntimeWarning: invalid value encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-208>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-217>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-217>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-218>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-219>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-220>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-220>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-221>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-222>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-223>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-223>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-224>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-225>:2: RuntimeWarning: overflow encountered in exp
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-226>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-229>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-232>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-235>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/test_lgf.py::test_pipeline_full
+  <lambdifygenerated-238>:2: RuntimeWarning: invalid value encountered in divide
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+58 passed, 149 warnings in 50.47s

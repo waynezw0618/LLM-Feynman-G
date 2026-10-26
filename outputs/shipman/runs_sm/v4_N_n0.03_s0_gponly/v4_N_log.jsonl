@@ -1,0 +1,40 @@
+{"gen": 0, "best_loss": 0.5666698517698618, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 2.789824962615967, "note": ""}
+{"gen": 1, "best_loss": 0.5666698517698618, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 3.717527389526367, "note": ""}
+{"gen": 2, "best_loss": 0.5666698517698618, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 4.918503522872925, "note": ""}
+{"gen": 3, "best_loss": 0.5666698517698617, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 6.043323755264282, "note": ""}
+{"gen": 4, "best_loss": 0.5666698517698617, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 7.276571273803711, "note": ""}
+{"gen": 5, "best_loss": 0.5666698517698615, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 8.407265186309814, "note": ""}
+{"gen": 6, "best_loss": 0.5666698517698615, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 9.495882034301758, "note": ""}
+{"gen": 7, "best_loss": 0.5666698517698615, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (dv_a05) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 10.68117380142212, "note": ""}
+{"gen": 8, "best_loss": 0.566190451472827, "best_graph": "C1 * (vm3) + C2 * (r) + C3 * (conv_v_K1) + C4 * (conv_r_K1)", "n_pop": 60, "seconds": 11.677973508834839, "note": ""}
+{"gen": 9, "best_loss": 0.566190444588382, "best_graph": "C1 * (vm3) + C2 * (r) + C3 * (conv_v_K1) + C4 * (conv_r_K1)", "n_pop": 60, "seconds": 12.89833664894104, "note": ""}
+{"gen": 10, "best_loss": 0.5661904445883815, "best_graph": "C1 * (vm3) + C2 * (r) + C3 * (conv_v_K1) + C4 * (conv_r_K1)", "n_pop": 60, "seconds": 14.12874460220337, "note": ""}
+{"gen": 11, "best_loss": 0.5661904445883814, "best_graph": "C1 * (vm3) + C2 * (r) + C3 * (conv_v_K1) + C4 * (conv_r_K1)", "n_pop": 60, "seconds": 15.222968578338623, "note": ""}
+{"gen": 12, "best_loss": 0.5634566611806427, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 16.451102256774902, "note": ""}
+{"gen": 13, "best_loss": 0.5634566611806267, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 17.51376986503601, "note": ""}
+{"gen": 14, "best_loss": 0.5634566611806267, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 18.504476070404053, "note": ""}
+{"gen": 15, "best_loss": 0.5634566611806267, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 19.486483573913574, "note": ""}
+{"gen": 16, "best_loss": 0.5634566611806265, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 20.438321828842163, "note": ""}
+{"gen": 17, "best_loss": 0.5634566611806265, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 21.606460332870483, "note": ""}
+{"gen": 18, "best_loss": 0.5634566611806263, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 22.84950876235962, "note": ""}
+{"gen": 19, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 24.528443098068237, "note": ""}
+{"gen": 20, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 26.070932865142822, "note": ""}
+{"gen": 21, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 27.531713247299194, "note": ""}
+{"gen": 22, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 29.062155723571777, "note": ""}
+{"gen": 23, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 30.68656277656555, "note": ""}
+{"gen": 24, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 32.24860954284668, "note": ""}
+{"gen": 25, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 33.62187075614929, "note": ""}
+{"gen": 26, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 35.37205195426941, "note": ""}
+{"gen": 27, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 37.028164863586426, "note": ""}
+{"gen": 28, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 38.44763708114624, "note": ""}
+{"gen": 29, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 39.954461097717285, "note": ""}
+{"gen": 30, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 41.489943504333496, "note": ""}
+{"gen": 31, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 43.01115417480469, "note": ""}
+{"gen": 32, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 44.08499193191528, "note": ""}
+{"gen": 33, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 45.060643434524536, "note": ""}
+{"gen": 34, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 46.25331091880798, "note": ""}
+{"gen": 35, "best_loss": 0.5634566611806258, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 48.05464148521423, "note": ""}
+{"gen": 36, "best_loss": 0.5634566611806257, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 49.84598422050476, "note": ""}
+{"gen": 37, "best_loss": 0.5634566611806257, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 51.60007381439209, "note": ""}
+{"gen": 38, "best_loss": 0.5634566611806257, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 53.17111349105835, "note": ""}
+{"gen": 39, "best_loss": 0.5634566611806254, "best_graph": "C1 * (vm) + C2 * (r) + C3 * (vm3) + C4 * (conv_v_K1) + C5 * (conv_r_K1)", "n_pop": 60, "seconds": 54.65318703651428, "note": ""}

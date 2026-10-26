@@ -1,0 +1,22 @@
+{
+ "src": "dataset_pope_wy.npz",
+ "selected_basis": [
+  "T1",
+  "T2v",
+  "T3v",
+  "T4v",
+  "T5g"
+ ],
+ "basis_rationale": "归因实验: T5v->T5g GS 单换基, 特征集与基线 dataset_pope_wy 严格一致 (9 列), 隔离换基效应",
+ "features": [
+  "eta2",
+  "s3",
+  "zeta2v",
+  "so2v",
+  "s2o2v",
+  "zeta2e",
+  "so2e",
+  "s2o2e",
+  "yw"
+ ]
+}

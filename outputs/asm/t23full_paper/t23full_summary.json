@@ -1,0 +1,727 @@
+{
+ "rows": [
+  {
+   "formula": "C1 * (sqrt(roloc)) + C2 * (tanh(yw + C3 * (1))) + C4 * (roloc)",
+   "loss_vw": 0.1357933662156182,
+   "worst": 0.24640501951514418,
+   "per_case": {
+    "Ro7.5": 0.11560822471080988,
+    "Ro15": 0.034622767773950736,
+    "Ro30": 0.24640501951514418,
+    "Ro75": 0.11473974095995497,
+    "Ro150": 0.1675910781182312
+   },
+   "complexity_nodes": 13,
+   "n_params": 4,
+   "elapsed_s": 264.6,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_mg/v/preds_best.npz",
+   "method": "lgf_mg",
+   "variant": "v",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_mg\\v"
+  },
+  {
+   "formula": "C1 * (sqrt(roloc)) + C2 * (cos(yw + C3 * (1))) + C4 * (roloc)",
+   "loss_vw": 0.13667534513680693,
+   "worst": 0.2510651832859933,
+   "per_case": {
+    "Ro7.5": 0.1142313802030763,
+    "Ro15": 0.041756871141478386,
+    "Ro30": 0.2510651832859933,
+    "Ro75": 0.11081366966832867,
+    "Ro150": 0.1655096213851579
+   },
+   "complexity_nodes": 13,
+   "n_params": 4,
+   "elapsed_s": 293.4,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_mg/g/preds_best.npz",
+   "method": "lgf_mg",
+   "variant": "g",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_mg\\g"
+  },
+  {
+   "formula": "(C1 * (tanh(C2 * (roloc)))) * (C3 * (cos(yw + C5 * (1))) + C4 * (roloc) + yw)",
+   "loss_vw": 0.07799588845704554,
+   "worst": 0.13510912424750451,
+   "per_case": {
+    "Ro7.5": 0.040207908781539146,
+    "Ro15": 0.13510912424750451,
+    "Ro30": 0.06167193612814483,
+    "Ro75": 0.08959385078061718,
+    "Ro150": 0.063396622347422
+   },
+   "complexity_nodes": 16,
+   "n_params": 5,
+   "elapsed_s": 397.7,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_mg/e/preds_best.npz",
+   "method": "lgf_mg",
+   "variant": "e",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_mg\\e"
+  },
+  {
+   "formula": "((C3 * (yw) + (C2 * (roloc)) * (roloc)) * (sqrt(roloc))) / (C1 * (yw) + (roloc) * (roloc))",
+   "loss_vw": 0.07269412138737907,
+   "worst": 0.14480021642214883,
+   "per_case": {
+    "Ro7.5": 0.14480021642214883,
+    "Ro15": 0.09479711563920228,
+    "Ro30": 0.030170558135077324,
+    "Ro75": 0.020753477691222336,
+    "Ro150": 0.0729492390492446
+   },
+   "complexity_nodes": 17,
+   "n_params": 3,
+   "elapsed_s": 1990.5,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_mg/m/preds_best.npz",
+   "method": "lgf_mg",
+   "variant": "m",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_mg\\m"
+  },
+  {
+   "formula": "C1 * (exp(C2 * (log(yw)))) + C3 * (roloc) + C4 * (tanh(C5 * (roloc)))",
+   "loss_vw": 0.11039881597651773,
+   "worst": 0.15066265186786396,
+   "per_case": {
+    "Ro7.5": 0.06651695477135874,
+    "Ro15": 0.049413550673856194,
+    "Ro30": 0.15066265186786396,
+    "Ro75": 0.13798334465015236,
+    "Ro150": 0.14741757791935736
+   },
+   "complexity_nodes": 13,
+   "n_params": 5,
+   "elapsed_s": 181.2,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_go/v/preds_best.npz",
+   "method": "lgf_go",
+   "variant": "v",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_go\\v"
+  },
+  {
+   "formula": "((C1 * (tanh(C2 * (yw) + C4 * (1)))) * (sqrt(roloc))) - (C5 * (1) + C3 * (roloc))",
+   "loss_vw": 0.05528787952864254,
+   "worst": 0.10205227115241461,
+   "per_case": {
+    "Ro7.5": 0.023352395895150663,
+    "Ro15": 0.026470266593278554,
+    "Ro30": 0.10205227115241461,
+    "Ro75": 0.09379060492347575,
+    "Ro150": 0.030773859078893115
+   },
+   "complexity_nodes": 16,
+   "n_params": 5,
+   "elapsed_s": 193.7,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_go/g/preds_best.npz",
+   "method": "lgf_go",
+   "variant": "g",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_go\\g"
+  },
+  {
+   "formula": "((C1 * (exp(C2 * (yw)))) * (tanh(C3 * (roloc)))) * ((log(yw + C4 * (1))) - (C5 * (roloc)))",
+   "loss_vw": 0.05491990213469171,
+   "worst": 0.11454002633476663,
+   "per_case": {
+    "Ro7.5": 0.026384470165279866,
+    "Ro15": 0.11454002633476663,
+    "Ro30": 0.0326668626895131,
+    "Ro75": 0.07097542370521309,
+    "Ro150": 0.03003272777868585
+   },
+   "complexity_nodes": 17,
+   "n_params": 5,
+   "elapsed_s": 187.9,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_go/e/preds_best.npz",
+   "method": "lgf_go",
+   "variant": "e",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_go\\e"
+  },
+  {
+   "formula": "((C1 * (tanh(C2 * (roloc)))) * (C3 * (yw) + C4 * (1))) / (C5 * (roloc) + C6 * (yw))",
+   "loss_vw": 0.05137201127279754,
+   "worst": 0.08798766740472162,
+   "per_case": {
+    "Ro7.5": 0.076766640305417,
+    "Ro15": 0.08798766740472162,
+    "Ro30": 0.004083058327775217,
+    "Ro75": 0.06996273168290983,
+    "Ro150": 0.018059958643164023
+   },
+   "complexity_nodes": 16,
+   "n_params": 6,
+   "elapsed_s": 1847.4,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_lgf_go/m/preds_best.npz",
+   "method": "lgf_go",
+   "variant": "m",
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_lgf_go\\m"
+  },
+  {
+   "formula": "(exp((-1.2264037 / roloc) + yw) - ((exp(T1s) * ((-1.2298912 / roloc) + 1.0200466)) * (exp(((-1.2297723 / roloc) - -0.22520013) + 0.020486476) * -0.18620984))) * 0.01694622",
+   "loss_vw": 0.21921016899819307,
+   "worst": 0.3525859020101881,
+   "per_case": {
+    "Ro7.5": 0.01859531708941534,
+    "Ro15": 0.0659005740355092,
+    "Ro30": 0.31966251410587726,
+    "Ro75": 0.3525859020101881,
+    "Ro150": 0.3393065377499755
+   },
+   "complexity_nodes": 28,
+   "n_params": null,
+   "elapsed_s": 15.5,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/v/preds_best.npz",
+   "method": "pysr",
+   "variant": "v",
+   "seed": 0,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\v"
+  },
+  {
+   "formula": "(yw / ((((yw + (1.0061908 / log(roloc))) / log(roloc)) + yw) + (0.004842794 / (1.0063454 / roloc)))) * 0.078751855",
+   "loss_vw": 0.17898614058087206,
+   "worst": 0.30019720228485625,
+   "per_case": {
+    "Ro7.5": 0.12586998537467298,
+    "Ro15": 0.048665721271677724,
+    "Ro30": 0.1732066811921459,
+    "Ro75": 0.30019720228485625,
+    "Ro150": 0.24699111278100744
+   },
+   "complexity_nodes": 21,
+   "n_params": null,
+   "elapsed_s": 13.2,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/v_s1/preds_best.npz",
+   "method": "pysr",
+   "variant": "v",
+   "seed": 1,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\v_s1"
+  },
+  {
+   "formula": "(roloc * (((roloc * ((yw * 0.008180132) / -1.2444005)) + (log(yw) + ((roloc * -0.017340412) / -4.4683533))) * 0.00041404596)) + (exp(-4.4683537 / roloc) * 0.06579082)",
+   "loss_vw": 0.05810038480822701,
+   "worst": 0.11657950421658739,
+   "per_case": {
+    "Ro7.5": 0.06650986843484322,
+    "Ro15": 0.0434367975723435,
+    "Ro30": 0.035681659079460956,
+    "Ro75": 0.028294094737900014,
+    "Ro150": 0.11657950421658739
+   },
+   "complexity_nodes": 27,
+   "n_params": null,
+   "elapsed_s": 12.4,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/v_s2/preds_best.npz",
+   "method": "pysr",
+   "variant": "v",
+   "seed": 2,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\v_s2"
+  },
+  {
+   "formula": "(0.09943694 - (yw / ((((0.095062666 - T10s) * 0.095062666) - yw) - (exp((((0.040035326 - T6s) - yw) * ((0.040035326 - T6s) * 0.095062666)) - T10s) / roloc)))) * 0.040035326",
+   "loss_vw": 0.12863675306636976,
+   "worst": 0.2728204893666544,
+   "per_case": {
+    "Ro7.5": 0.0711827846175964,
+    "Ro15": 0.016895938069592262,
+    "Ro30": 0.2728204893666544,
+    "Ro75": 0.18525621298161535,
+    "Ro150": 0.09702834029639054
+   },
+   "complexity_nodes": 30,
+   "n_params": null,
+   "elapsed_s": 15.1,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/g/preds_best.npz",
+   "method": "pysr",
+   "variant": "g",
+   "seed": 0,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\g"
+  },
+  {
+   "formula": "(sqrt(yw) * 0.08432703) - (((T10s * -0.0875606) - (((exp(T5s) * yw) * (exp(yw * 0.017842537) - sqrt(yw * 0.085987754))) * 0.89494497)) * -0.068957254)",
+   "loss_vw": 0.26239084763528636,
+   "worst": 0.4865932884260185,
+   "per_case": {
+    "Ro7.5": 0.4865932884260185,
+    "Ro15": 0.12732715326154528,
+    "Ro30": 0.31708510665127554,
+    "Ro75": 0.23305324270281289,
+    "Ro150": 0.14789544713477962
+   },
+   "complexity_nodes": 27,
+   "n_params": null,
+   "elapsed_s": 17.7,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/g_s1/preds_best.npz",
+   "method": "pysr",
+   "variant": "g",
+   "seed": 1,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\g_s1"
+  },
+  {
+   "formula": "sqrt(yw) * ((((T10s + (T5s + (((T5s + (T5s + T5s)) + 1.1136094) * (yw + (T5s * yw))))) + T5s) * -0.009715371) + 0.0528042)",
+   "loss_vw": 0.20849677234251898,
+   "worst": 0.3337368083270155,
+   "per_case": {
+    "Ro7.5": 0.2769019301636167,
+    "Ro15": 0.04650950689087517,
+    "Ro30": 0.3337368083270155,
+    "Ro75": 0.1785260825277673,
+    "Ro150": 0.20680953380332032
+   },
+   "complexity_nodes": 26,
+   "n_params": null,
+   "elapsed_s": 11.9,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/g_s2/preds_best.npz",
+   "method": "pysr",
+   "variant": "g",
+   "seed": 2,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\g_s2"
+  },
+  {
+   "formula": "((T1s - (T5s + -0.8528748)) * 0.002497862) + (sqrt(yw) * 0.04208974)",
+   "loss_vw": 0.3344367946669173,
+   "worst": 0.5529274310945633,
+   "per_case": {
+    "Ro7.5": 0.2196474332663059,
+    "Ro15": 0.03297810731977604,
+    "Ro30": 0.5529274310945633,
+    "Ro75": 0.5138593784868553,
+    "Ro150": 0.3527716231670859
+   },
+   "complexity_nodes": 12,
+   "n_params": null,
+   "elapsed_s": 12.1,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/e/preds_best.npz",
+   "method": "pysr",
+   "variant": "e",
+   "seed": 0,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\e"
+  },
+  {
+   "formula": "0.027590703 * exp((roloc * -0.003140795) + (((-1.1770055 + -0.8776399) / (roloc / (yw - -0.83884746))) + yw))",
+   "loss_vw": 0.14913417475488816,
+   "worst": 0.27592862899891996,
+   "per_case": {
+    "Ro7.5": 0.018425359973862295,
+    "Ro15": 0.07169725080284825,
+    "Ro30": 0.27592862899891996,
+    "Ro75": 0.23601818219656587,
+    "Ro150": 0.14360145180224448
+   },
+   "complexity_nodes": 18,
+   "n_params": null,
+   "elapsed_s": 16.9,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/e_s1/preds_best.npz",
+   "method": "pysr",
+   "variant": "e",
+   "seed": 1,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\e_s1"
+  },
+  {
+   "formula": "(sqrt(yw) - ((T5s + (((((T6s * 0.5231088) + (((T5s + T5s) + 0.5231088) * sqrt(yw))) + (T5s / 0.5231088)) * exp(T5s)) + T10s)) * 0.084845565)) * 0.050416622",
+   "loss_vw": 0.19724080235047664,
+   "worst": 0.34426472987329937,
+   "per_case": {
+    "Ro7.5": 0.34426472987329937,
+    "Ro15": 0.060204069619849136,
+    "Ro30": 0.3309477132363923,
+    "Ro75": 0.169048733241377,
+    "Ro150": 0.08173876578146523
+   },
+   "complexity_nodes": 30,
+   "n_params": null,
+   "elapsed_s": 12.2,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/e_s2/preds_best.npz",
+   "method": "pysr",
+   "variant": "e",
+   "seed": 2,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\e_s2"
+  },
+  {
+   "formula": "0.15180428 / ((T10s_e + T4_v) + ((((yw / ((T10s_e + T10s_e) + (((((T10s_e + T10s_e) + T10s_e) / 0.20142508) / 0.07615484) + yw))) + 0.27039713) / yw) + 2.5036836))",
+   "loss_vw": 0.16904552109605792,
+   "worst": 0.5140686276908352,
+   "per_case": {
+    "Ro7.5": 0.05971491895019567,
+    "Ro15": 0.047837840885458435,
+    "Ro30": 0.11304626226561959,
+    "Ro75": 0.11055995568818065,
+    "Ro150": 0.5140686276908352
+   },
+   "complexity_nodes": 29,
+   "n_params": null,
+   "elapsed_s": 12.3,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/m/preds_best.npz",
+   "method": "pysr",
+   "variant": "m",
+   "seed": 0,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\m"
+  },
+  {
+   "formula": "(sqrt(yw) + ((exp(T1) - (T5s_g * 0.558118)) * 0.09673394)) * 0.039472185",
+   "loss_vw": 0.32835395745930307,
+   "worst": 0.5228853226454087,
+   "per_case": {
+    "Ro7.5": 0.2592271712338714,
+    "Ro15": 0.04347748402852751,
+    "Ro30": 0.5187261961087772,
+    "Ro75": 0.5228853226454087,
+    "Ro150": 0.29745361327993064
+   },
+   "complexity_nodes": 13,
+   "n_params": null,
+   "elapsed_s": 15.7,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/m_s1/preds_best.npz",
+   "method": "pysr",
+   "variant": "m",
+   "seed": 1,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\m_s1"
+  },
+  {
+   "formula": "(sqrt(roloc) * (0.008958094 - (yw * (-0.013978506 - (yw * -0.0066655087))))) - ((((((T1s * ((T1s * -0.01792572) - -0.009382946)) - 0.0058199507) + roloc) - T1s) - T1s) * 0.001041976)",
+   "loss_vw": 0.04181985669072747,
+   "worst": 0.08007750509093138,
+   "per_case": {
+    "Ro7.5": 0.023669294220403942,
+    "Ro15": 0.004414570525925549,
+    "Ro30": 0.07689940244171566,
+    "Ro75": 0.08007750509093138,
+    "Ro150": 0.024038511174660805
+   },
+   "complexity_nodes": 30,
+   "n_params": null,
+   "elapsed_s": 12.1,
+   "preds_file": "D:/AI/LLM-Feynman-G/outputs/asm/runs_vw_t23full_pysr/m_s2/preds_best.npz",
+   "method": "pysr",
+   "variant": "m",
+   "seed": 2,
+   "run_dir": "D:\\AI\\LLM-Feynman-G\\outputs\\asm\\runs_vw_t23full_pysr\\m_s2"
+  }
+ ],
+ "missing": [],
+ "grouped": {
+  "v": {
+   "pysr": {
+    "loss_vw": {
+     "n": 3,
+     "mean": 0.15209889812909738,
+     "std": 0.0838527488841585,
+     "min": 0.05810038480822701,
+     "max": 0.21921016899819307
+    },
+    "worst": {
+     "n": 3,
+     "mean": 0.25645420283721054,
+     "std": 0.12393483146551404,
+     "min": 0.11657950421658739,
+     "max": 0.3525859020101881
+    }
+   },
+   "lgf_mg": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.1357933662156182,
+     "std": 0.0,
+     "min": 0.1357933662156182,
+     "max": 0.1357933662156182
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.24640501951514418,
+     "std": 0.0,
+     "min": 0.24640501951514418,
+     "max": 0.24640501951514418
+    }
+   },
+   "lgf_go": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.11039881597651773,
+     "std": 0.0,
+     "min": 0.11039881597651773,
+     "max": 0.11039881597651773
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.15066265186786396,
+     "std": 0.0,
+     "min": 0.15066265186786396,
+     "max": 0.15066265186786396
+    }
+   },
+   "lgf_all": {
+    "loss_vw": {
+     "n": 2,
+     "mean": 0.12309609109606795,
+     "std": 0.0179566586792504,
+     "min": 0.11039881597651773,
+     "max": 0.1357933662156182
+    },
+    "worst": {
+     "n": 2,
+     "mean": 0.19853383569150407,
+     "std": 0.06770007741024736,
+     "min": 0.15066265186786396,
+     "max": 0.24640501951514418
+    }
+   },
+   "all_lgf_vs_pysr": {
+    "loss_vw": {
+     "n": 5,
+     "mean": 0.14049777531588561,
+     "std": 0.06203709366326077,
+     "min": 0.05810038480822701,
+     "max": 0.21921016899819307
+    },
+    "worst": {
+     "n": 5,
+     "mean": 0.23328605597892796,
+     "std": 0.09915733469904829,
+     "min": 0.11657950421658739,
+     "max": 0.3525859020101881
+    }
+   }
+  },
+  "g": {
+   "pysr": {
+    "loss_vw": {
+     "n": 3,
+     "mean": 0.1998414576813917,
+     "std": 0.06729580453044613,
+     "min": 0.12863675306636976,
+     "max": 0.26239084763528636
+    },
+    "worst": {
+     "n": 3,
+     "mean": 0.3643835287065628,
+     "std": 0.11013227731657708,
+     "min": 0.2728204893666544,
+     "max": 0.4865932884260185
+    }
+   },
+   "lgf_mg": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.13667534513680693,
+     "std": 0.0,
+     "min": 0.13667534513680693,
+     "max": 0.13667534513680693
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.2510651832859933,
+     "std": 0.0,
+     "min": 0.2510651832859933,
+     "max": 0.2510651832859933
+    }
+   },
+   "lgf_go": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.05528787952864254,
+     "std": 0.0,
+     "min": 0.05528787952864254,
+     "max": 0.05528787952864254
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.10205227115241461,
+     "std": 0.0,
+     "min": 0.10205227115241461,
+     "max": 0.10205227115241461
+    }
+   },
+   "lgf_all": {
+    "loss_vw": {
+     "n": 2,
+     "mean": 0.09598161233272473,
+     "std": 0.057549628835119965,
+     "min": 0.05528787952864254,
+     "max": 0.13667534513680693
+    },
+    "worst": {
+     "n": 2,
+     "mean": 0.17655872721920396,
+     "std": 0.10536804065400866,
+     "min": 0.10205227115241461,
+     "max": 0.2510651832859933
+    }
+   },
+   "all_lgf_vs_pysr": {
+    "loss_vw": {
+     "n": 5,
+     "mean": 0.15829751954192492,
+     "std": 0.07955132205827714,
+     "min": 0.05528787952864254,
+     "max": 0.26239084763528636
+    },
+    "worst": {
+     "n": 5,
+     "mean": 0.28925360811161926,
+     "std": 0.1393686193783007,
+     "min": 0.10205227115241461,
+     "max": 0.4865932884260185
+    }
+   }
+  },
+  "e": {
+   "pysr": {
+    "loss_vw": {
+     "n": 3,
+     "mean": 0.22693725725742736,
+     "std": 0.09615443209803644,
+     "min": 0.14913417475488816,
+     "max": 0.3344367946669173
+    },
+    "worst": {
+     "n": 3,
+     "mean": 0.3910402633222609,
+     "std": 0.14430192995134036,
+     "min": 0.27592862899891996,
+     "max": 0.5529274310945633
+    }
+   },
+   "lgf_mg": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.07799588845704554,
+     "std": 0.0,
+     "min": 0.07799588845704554,
+     "max": 0.07799588845704554
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.13510912424750451,
+     "std": 0.0,
+     "min": 0.13510912424750451,
+     "max": 0.13510912424750451
+    }
+   },
+   "lgf_go": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.05491990213469171,
+     "std": 0.0,
+     "min": 0.05491990213469171,
+     "max": 0.05491990213469171
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.11454002633476663,
+     "std": 0.0,
+     "min": 0.11454002633476663,
+     "max": 0.11454002633476663
+    }
+   },
+   "lgf_all": {
+    "loss_vw": {
+     "n": 2,
+     "mean": 0.06645789529586862,
+     "std": 0.016317186411104415,
+     "min": 0.05491990213469171,
+     "max": 0.07799588845704554
+    },
+    "worst": {
+     "n": 2,
+     "mean": 0.12482457529113558,
+     "std": 0.014544548616987016,
+     "min": 0.11454002633476663,
+     "max": 0.13510912424750451
+    }
+   },
+   "all_lgf_vs_pysr": {
+    "loss_vw": {
+     "n": 5,
+     "mean": 0.16274551247280386,
+     "std": 0.1114248075332344,
+     "min": 0.05491990213469171,
+     "max": 0.3344367946669173
+    },
+    "worst": {
+     "n": 5,
+     "mean": 0.28455398810981075,
+     "std": 0.17811694819310253,
+     "min": 0.11454002633476663,
+     "max": 0.5529274310945633
+    }
+   }
+  },
+  "m": {
+   "pysr": {
+    "loss_vw": {
+     "n": 3,
+     "mean": 0.17973977841536282,
+     "std": 0.14356609307396606,
+     "min": 0.04181985669072747,
+     "max": 0.32835395745930307
+    },
+    "worst": {
+     "n": 3,
+     "mean": 0.37234381847572506,
+     "std": 0.2531484386326219,
+     "min": 0.08007750509093138,
+     "max": 0.5228853226454087
+    }
+   },
+   "lgf_mg": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.07269412138737907,
+     "std": 0.0,
+     "min": 0.07269412138737907,
+     "max": 0.07269412138737907
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.14480021642214883,
+     "std": 0.0,
+     "min": 0.14480021642214883,
+     "max": 0.14480021642214883
+    }
+   },
+   "lgf_go": {
+    "loss_vw": {
+     "n": 1,
+     "mean": 0.05137201127279754,
+     "std": 0.0,
+     "min": 0.05137201127279754,
+     "max": 0.05137201127279754
+    },
+    "worst": {
+     "n": 1,
+     "mean": 0.08798766740472162,
+     "std": 0.0,
+     "min": 0.08798766740472162,
+     "max": 0.08798766740472162
+    }
+   },
+   "lgf_all": {
+    "loss_vw": {
+     "n": 2,
+     "mean": 0.0620330663300883,
+     "std": 0.015077008651226879,
+     "min": 0.05137201127279754,
+     "max": 0.07269412138737907
+    },
+    "worst": {
+     "n": 2,
+     "mean": 0.11639394191343522,
+     "std": 0.040172538666715905,
+     "min": 0.08798766740472162,
+     "max": 0.14480021642214883
+    }
+   },
+   "all_lgf_vs_pysr": {
+    "loss_vw": {
+     "n": 5,
+     "mean": 0.13265709358125302,
+     "std": 0.12049440488548151,
+     "min": 0.04181985669072747,
+     "max": 0.32835395745930307
+    },
+    "worst": {
+     "n": 5,
+     "mean": 0.2699638678508091,
+     "std": 0.22825123438981612,
+     "min": 0.08007750509093138,
+     "max": 0.5228853226454087
+    }
+   }
+  }
+ }
+}

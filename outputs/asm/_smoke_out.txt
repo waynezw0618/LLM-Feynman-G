@@ -1,0 +1,204 @@
+[lgf][B2] wall-seed: 注入 3 个含 yw 的种子 (f=eta2, corr=0.79, 种群含yw个体数 5/15)
+<lambdifygenerated-11>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*zeta2e/(1.0*C1 + zeta2e)
+<lambdifygenerated-16>:2: RuntimeWarning: invalid value encountered in sqrt
+  return exp(-sqrt(C1*tanh(zeta2e)))
+<lambdifygenerated-17>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -1/2*sqrt(C1*tanh(zeta2e))*exp(-sqrt(C1*tanh(zeta2e)))/C1
+<lambdifygenerated-18>:2: RuntimeWarning: divide by zero encountered in log
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-18>:2: RuntimeWarning: invalid value encountered in multiply
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-25>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2*exp(1.0*C1/yw)
+<lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in divide
+  return C1*exp(1.0*C2/yw)
+<lambdifygenerated-31>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0)
+<lambdifygenerated-34>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0)
+<lambdifygenerated-37>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2*exp(1.0*C1/yw)
+<lambdifygenerated-46>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*zeta2e/(1.0*C1 + zeta2e)
+<lambdifygenerated-53>:2: RuntimeWarning: divide by zero encountered in log
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-53>:2: RuntimeWarning: invalid value encountered in multiply
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-56>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-60>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2 + exp(1.0*C1/yw)
+<lambdifygenerated-74>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-78>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0)
+<lambdifygenerated-81>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2*exp(1.0*C1/yw)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2 + exp(1.0*C1/yw)
+<lambdifygenerated-94>:2: RuntimeWarning: divide by zero encountered in power
+  return C1*eta2**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-96>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2 + exp(1.0*C1/eta2)
+<lambdifygenerated-103>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-111>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*exp(1.0*C1/yw)*exp(C3*log(s2o2v))
+<lambdifygenerated-111>:2: RuntimeWarning: divide by zero encountered in log
+  return C2*exp(1.0*C1/yw)*exp(C3*log(s2o2v))
+<lambdifygenerated-111>:2: RuntimeWarning: invalid value encountered in multiply
+  return C2*exp(1.0*C1/yw)*exp(C3*log(s2o2v))
+<lambdifygenerated-115>:2: RuntimeWarning: divide by zero encountered in power
+  return C1*eta2**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-117>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-121>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-125>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2*exp(1.0*C1/yw)
+<lambdifygenerated-128>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0)
+<lambdifygenerated-131>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2 + exp(1.0*C1/eta2)
+<lambdifygenerated-134>:2: RuntimeWarning: invalid value encountered in divide
+  return -1.0*C2/yw + C3*eta2**2 - exp(1.0*C1/yw)
+<lambdifygenerated-138>:2: RuntimeWarning: invalid value encountered in divide
+  return 1.0*C1*C2**2/yw**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-138>:2: RuntimeWarning: divide by zero encountered in power
+  return 1.0*C1*C2**2/yw**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-141>:2: RuntimeWarning: invalid value encountered in divide
+  return exp(1.0*C1/eta2) - 2.90418684748792
+<lambdifygenerated-143>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-147>:2: RuntimeWarning: divide by zero encountered in log
+  return C1*exp(C2*log(eta2))
+<lambdifygenerated-147>:2: RuntimeWarning: invalid value encountered in multiply
+  return C1*exp(C2*log(eta2))
+<lambdifygenerated-150>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2*exp(1.0*C1/eta2)
+<lambdifygenerated-153>:2: RuntimeWarning: divide by zero encountered in power
+  return C1*eta2**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-155>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-159>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-163>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0)
+<lambdifygenerated-170>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2*exp(1.0*C1/yw)
+<lambdifygenerated-173>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-177>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(1.0*C1/yw + exp(eta2**2))
+<lambdifygenerated-180>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0)
+<lambdifygenerated-183>:2: RuntimeWarning: invalid value encountered in divide
+  return 1.0*C2*exp(1.0*C1/yw)
+<lambdifygenerated-186>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-190>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-202>:2: RuntimeWarning: divide by zero encountered in power
+  return C1*eta2**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-204>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-208>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-212>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-216>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-220>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-224>:2: RuntimeWarning: invalid value encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0/yw)
+<lambdifygenerated-224>:2: RuntimeWarning: divide by zero encountered in divide
+  return C2*eta2**2/(exp(1.0*C1/yw) + 1.0/yw)
+<lambdifygenerated-227>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-231>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-235>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-239>:2: RuntimeWarning: invalid value encountered in divide
+  return C4*eta2**2/(exp(1.0*C1/yw) + 1.0*C3/C2)
+<lambdifygenerated-244>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-248>:2: RuntimeWarning: divide by zero encountered in power
+  return C1*eta2**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-250>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-254>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-258>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-262>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-266>:2: RuntimeWarning: divide by zero encountered in power
+  return C1*eta2**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-268>:2: RuntimeWarning: divide by zero encountered in power
+  return C1*eta2**2 + sin(tanh(log(zeta2e**(-1.0))))
+<lambdifygenerated-270>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-274>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-278>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-282>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-286>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+<lambdifygenerated-290>:2: RuntimeWarning: invalid value encountered in divide
+  return C3*eta2**2/(1.0*C2/yw + exp(1.0*C1/yw))
+--- smoke_v3a ---
+  mguide: {'n_calls': 1, 'n_nonempty': 1, 'n_applied': 5, 'n_alive': 0, 'last_error': None, 'last_exception': None}
+  forbidden_filtered=0  ginit={'n_candidates': 3, 'n_parsed': 3}
+  gen=0 n_pop=12 best=0.3137
+  gen=1 n_pop=12 best=0.3137
+  gen=2 n_pop=12 best=0.1747
+  gen=3 n_pop=12 best=0.1739
+  gen=4 n_pop=17 best=0.1739
+  gen=5 n_pop=12 best=0.1611
+  best dsl: C1 * (eta2^2) + sin(tanh(log(inv(zeta2e))))
+[lgf][B2] wall-seed: 注入 3 个含 yw 的种子 (f=eta2, corr=0.79, 种群含yw个体数 5/15)
+<lambdifygenerated-306>:2: RuntimeWarning: invalid value encountered in sqrt
+  return exp(-sqrt(C1*tanh(zeta2e)))
+<lambdifygenerated-307>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -1/2*sqrt(C1*tanh(zeta2e))*exp(-sqrt(C1*tanh(zeta2e)))/C1
+<lambdifygenerated-308>:2: RuntimeWarning: divide by zero encountered in log
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-308>:2: RuntimeWarning: invalid value encountered in multiply
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-325>:2: RuntimeWarning: divide by zero encountered in log
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-325>:2: RuntimeWarning: invalid value encountered in multiply
+  return C1*exp(C2*log(yw))
+<lambdifygenerated-328>:2: RuntimeWarning: invalid value encountered in sqrt
+  return exp(-sqrt(C1*tanh(zeta2e)))
+<lambdifygenerated-329>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -1/2*sqrt(C1*tanh(zeta2e))*exp(-sqrt(C1*tanh(zeta2e)))/C1
+<lambdifygenerated-358>:2: RuntimeWarning: invalid value encountered in sqrt
+  return exp(-sqrt(C1*tanh(zeta2e)))
+<lambdifygenerated-359>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -1/2*sqrt(C1*tanh(zeta2e))*exp(-sqrt(C1*tanh(zeta2e)))/C1
+<lambdifygenerated-367>:2: RuntimeWarning: divide by zero encountered in log
+  return log(tanh(log(eta2))**(-1.0))
+<lambdifygenerated-367>:2: RuntimeWarning: invalid value encountered in log
+  return log(tanh(log(eta2))**(-1.0))
+d:\AI\LLM-Feynman-G\lgf\attribution.py:139: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr = spearmanr(zf, rf).correlation if hasattr(spearmanr(zf, rf), "correlation") else spearmanr(zf, rf)[0]
+d:\AI\LLM-Feynman-G\lgf\compiler.py:58: ComplexWarning: Casting complex values to real discards the imaginary part
+  return np.asarray(self._fwd(*args), dtype=float)
+--- smoke_v3b ---
+  mguide: {'n_calls': 1, 'n_nonempty': 1, 'n_applied': 5, 'n_alive': 0, 'last_error': None, 'last_exception': None}
+  forbidden_filtered=5  ginit={'n_candidates': 3, 'n_parsed': 3}
+  gen=0 n_pop=12 best=0.37
+  gen=1 n_pop=12 best=0.37
+  gen=2 n_pop=12 best=0.355
+  gen=3 n_pop=12 best=0.355
+  gen=4 n_pop=17 best=0.355
+  gen=5 n_pop=12 best=0.355
+  best dsl: C2 * (eta2) + C1 * (1)

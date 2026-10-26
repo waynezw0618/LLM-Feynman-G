@@ -1,0 +1,28 @@
+{
+ "src": "dataset_pope3_wy.npz",
+ "selected_basis": [
+  "T1",
+  "T2v",
+  "T3v",
+  "T4v",
+  "T5g"
+ ],
+ "basis_rationale": "T5v->T5g: GS 单换基唯一零 nw_fit 损失入口 (_gs_diag 2026-10-04: p90 340.8, nw_fit 88.9%, max|a| 187); T5=WS2-S2W 为 vw 支撑基, GS 修正 W*=Wbar+eps*Om 将系统旋转显式注入",
+ "p90_relax_check": "p90 340.8 < 200x81.6 (段2 放松判据通过; 段1 0.7x 判据不放行 → 本换基即 p90 放松的直接产物)",
+ "features": [
+  "eta2",
+  "s3",
+  "zeta2v",
+  "so2v",
+  "s2o2v",
+  "zeta2e",
+  "so2e",
+  "s2o2e",
+  "zeta2g",
+  "so2g",
+  "s2o2g",
+  "yw",
+  "ret",
+  "roloc"
+ ]
+}

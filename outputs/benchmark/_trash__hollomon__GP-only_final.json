@@ -1,0 +1,248 @@
+{
+  "best": {
+    "dsl": "C1 * (exp(C2 * (log(x1))))",
+    "loss": 0.0003853018034245845,
+    "theta": [
+      49.99766830261138,
+      0.2992145799366906
+    ],
+    "metrics": {
+      "case0_nmse": 0.0003853018034245845,
+      "case0_r2": 0.9996146981965754,
+      "case0_rmse": 0.18904535469977068
+    },
+    "complexity": {
+      "nodes": 5,
+      "edges": 4,
+      "params": 2,
+      "depth": 5
+    }
+  },
+  "top_final": [
+    {
+      "dsl": "C1 * (exp(C2 * (log(x1))))",
+      "loss": 0.0003853018034245845,
+      "theta": [
+        49.99766830261138,
+        0.2992145799366906
+      ],
+      "metrics": {
+        "case0_nmse": 0.0003853018034245845,
+        "case0_r2": 0.9996146981965754,
+        "case0_rmse": 0.18904535469977068
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (C3 * (log(x1)))))",
+      "loss": 0.0003853018034245855,
+      "theta": [
+        49.99766830575268,
+        -0.01765750619351382,
+        -16.94546082636865
+      ],
+      "metrics": {
+        "case0_nmse": 0.0003853018034245855,
+        "case0_r2": 0.9996146981965754,
+        "case0_rmse": 0.18904535469977093
+      },
+      "complexity": {
+        "nodes": 6,
+        "edges": 5,
+        "params": 3,
+        "depth": 6
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x1))))",
+      "loss": 0.0003853018034246635,
+      "theta": [
+        49.99766832316814,
+        0.2992145767162497
+      ],
+      "metrics": {
+        "case0_nmse": 0.0003853018034246635,
+        "case0_r2": 0.9996146981965753,
+        "case0_rmse": 0.18904535469979006
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x1))))",
+      "loss": 0.0003853018034246878,
+      "theta": [
+        49.997668236657965,
+        0.29921457799528245
+      ],
+      "metrics": {
+        "case0_nmse": 0.0003853018034246878,
+        "case0_r2": 0.9996146981965753,
+        "case0_rmse": 0.18904535469979603
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x1))))",
+      "loss": 0.00038530180342481453,
+      "theta": [
+        49.997668333234316,
+        0.29921457459458295
+      ],
+      "metrics": {
+        "case0_nmse": 0.00038530180342481453,
+        "case0_r2": 0.9996146981965752,
+        "case0_rmse": 0.1890453546998271
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (C3 * (log(x1)))))",
+      "loss": 0.00038530180342490387,
+      "theta": [
+        49.99766834634813,
+        16.153284314565454,
+        0.018523451914763536
+      ],
+      "metrics": {
+        "case0_nmse": 0.00038530180342490387,
+        "case0_r2": 0.9996146981965751,
+        "case0_rmse": 0.18904535469984904
+      },
+      "complexity": {
+        "nodes": 6,
+        "edges": 5,
+        "params": 3,
+        "depth": 6
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x1))))",
+      "loss": 0.0003853018034274636,
+      "theta": [
+        49.997668037350415,
+        0.2992145970266554
+      ],
+      "metrics": {
+        "case0_nmse": 0.0003853018034274636,
+        "case0_r2": 0.9996146981965726,
+        "case0_rmse": 0.189045354700477
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    },
+    {
+      "dsl": "C1 * (exp(C2 * (log(x1))))",
+      "loss": 0.00038530180343698464,
+      "theta": [
+        49.99766769755236,
+        0.2992145533258385
+      ],
+      "metrics": {
+        "case0_nmse": 0.00038530180343698464,
+        "case0_r2": 0.999614698196563,
+        "case0_rmse": 0.1890453547028127
+      },
+      "complexity": {
+        "nodes": 5,
+        "edges": 4,
+        "params": 2,
+        "depth": 5
+      }
+    }
+  ],
+  "profile": {
+    "n_vars": 1,
+    "var_names": [
+      "x1"
+    ],
+    "n_cases": 1,
+    "per_case": [
+      {
+        "name": "case0",
+        "N": 80,
+        "y_min": 25.78658343341758,
+        "y_max": 61.68550122964989,
+        "y_mean": 49.11750413216002,
+        "y_std": 9.63086930390091,
+        "y_positive": true,
+        "monotone": {
+          "x1": 0.9993670886075949
+        },
+        "var_ranges": {
+          "x1": [
+            0.10520315032328138,
+            1.994698877999501
+          ]
+        }
+      }
+    ],
+    "global": {
+      "y_min": 25.78658343341758,
+      "y_max": 61.68550122964989,
+      "y_positive": true,
+      "y_range": 35.89891779623231
+    }
+  },
+  "priors": null,
+  "elapsed_s": 1.9288709163665771,
+  "cfg": {
+    "population": 16,
+    "generations": 6,
+    "offspring_ratio": 1.0,
+    "crossover_rate": 0.5,
+    "mutation_rate": 0.7,
+    "max_edges": 14,
+    "max_params": 6,
+    "max_depth": 6,
+    "llm_every": 2,
+    "stagnation_window": 4,
+    "extinction_keep": 4,
+    "use_llm": false,
+    "use_attribution": false,
+    "use_priors": false,
+    "gp_starts": 1,
+    "gp_maxiter": 15,
+    "final_starts": 3,
+    "final_maxiter": 50,
+    "sub_sample": 80,
+    "param_init_range": 1.5,
+    "init_value": 0.5,
+    "fit_tol": 1e-09,
+    "equivalence_tol": 0.001,
+    "llm_backend": "heuristic",
+    "llm_url": null,
+    "llm_model": "local",
+    "llm_temperature": 0.7,
+    "llm_timeout": 60.0,
+    "seed": 0,
+    "time_budget_s": 60,
+    "log_every": 1,
+    "output_dir": "outputs",
+    "case_names": []
+  },
+  "name": "hollomon__GP-only"
+}
